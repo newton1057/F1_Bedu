@@ -1,15 +1,98 @@
 body{
     background-color: #fffbf7;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
-
+    color: #025157;
+    text-align: center;
 }
 
 p{
-
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 20px;
 }
 
 button{
-    color: #ffff;
+    color: #fff;
+    background-color: #025157;
+}
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+    font-family: sans-serif;
+}
+
+li{
+    display: inline;
+    margin: 0 25px 0;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+    
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo > img{
+    width: 15%;
+}
+
+.navbar{
+    width: 70%;
+    height: 45px;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.navbar li {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    
+
+}
+
+.actions button{
+    color: #fff;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+    
+}
+
+.actions > *{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
 }
